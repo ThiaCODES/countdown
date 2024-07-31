@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body{
+    font-family:'Crimson Text';
+}
+h1{color:black;
+    text-decoration: underline;}
+h2{
+    color: red;
+    
+}
+.countdown{
+    background-image: url(./StockCake-Winter\ Lakeside\ Tranquility_1722368029.jpg);
+    background-size: cover;
+    background-position: center ;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: -40px;
+    gap: 20px;
+}
+p.text{
+    font-size: 70px;
+    font-weight: 600;
+    margin: 0 2rem;
+    color: red;
+}
+.container{
+    display: flex;
+    text-align: center;
+  
+}
+.count{
+    border: 4px solid white;
+    outline: 7px solid black;
+    margin: 20px;
+
+}
